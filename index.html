@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orçamento de Camisas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    h1 { color: #333; }
+    label { display: block; margin-top: 10px; }
+    select, input { margin-top: 5px; }
+    button { margin-top: 10px; margin-right: 5px; cursor: pointer; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    tfoot td { font-weight: bold; }
+    i { cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <h1>Orçamento de Camisas</h1>
+
+  <label for="tamanho">Tamanho:</label>
+  <select id="tamanho">
+    <optgroup label="Masculinas">
+      <option value="pMasculina">P Masculina</option>
+      <option value="mMasculina">M Masculina</option>
+      <option value="gMasculina">G Masculina</option>
+      <option value="ggMasculina">GG Masculina</option>
+      <option value="xgMasculina">XG Masculina</option>
+    </optgroup>
+    <optgroup label="Babylooks">
+      <option value="pBabyLook">P Babylook</option>
+      <option value="mBabyLook">M Babylook</option>
+      <option value="gBabyLook">G Babylook</option>
+      <option value="ggBabyLook">GG Babylook</option>
+      <option value="xgBabyLook">XG Babylook</option>
+      <option value="xggBabyLook">XGG Babylook</option>
+    </optgroup>
+    <optgroup label="Infantis">
+      <option value="ppInfantil">PP Infantil</option>
+      <option value="pInfantil">P Infantil</option>
+      <option value="mInfantil">M Infantil</option>
+      <option value="gInfantil">G Infantil</option>
+      <option value="ggInfantil">GG Infantil</option>
+    </optgroup>
+  </select>
+
+  <label for="tipo">Tipo:</label>
+  <select id="tipo">
+    <option value="mangaNormal">Manga Normal</option>
+    <option value="mangaLonga">Manga Longa</option>
+    <option value="regata">Regata</option>
+  </select>
+
+  <label for="quantidade">Quantidade:</label>
+  <input type="number" id="quantidade" min="1" value="1">
+
+  <button onclick="adicionarItem()">Adicionar</button>
+  <button onclick="excluirTudo()">Excluir Tudo</button>
+  <button onclick="exportarOrcamento()">Exportar Orçamento</button>
+  <input type="file" id="importar" style="display:none" accept=".json" onchange="importarOrcamento(event)">
+  <button onclick="document.getElementById('importar').click()">Importar Orçamento</button>
+
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th>Ações</th>
+        <th>Tamanho</th>
+        <th>Tipo</th>
+        <th>Qtd</th>
+        <th>Área Total (m²)</th>
+        <th>Custo (R$)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">TOTAL</td>
+        <td id="total">R$ 0,00</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
