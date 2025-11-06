@@ -1,0 +1,135 @@
+[
+  {
+    "tamanho": "pMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 9,
+    "areaTotal": 1.032225,
+    "custo": 78.96521249999999
+  },
+  {
+    "tamanho": "mMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 15,
+    "areaTotal": 1.146475,
+    "custo": 146.17556249999998
+  },
+  {
+    "tamanho": "gMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 16,
+    "areaTotal": 1.20163,
+    "custo": 163.42168
+  },
+  {
+    "tamanho": "ggMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 2,
+    "areaTotal": 1.2514299999999998,
+    "custo": 21.274309999999996
+  },
+  {
+    "tamanho": "xgMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 2,
+    "areaTotal": 1.56,
+    "custo": 26.52
+  },
+  {
+    "tamanho": "ppInfantil",
+    "tipo": "mangaNormal",
+    "qtd": 2,
+    "areaTotal": 0.367085,
+    "custo": 6.240445
+  },
+  {
+    "tamanho": "pInfantil",
+    "tipo": "mangaNormal",
+    "qtd": 1,
+    "areaTotal": 0.574596,
+    "custo": 4.884066
+  },
+  {
+    "tamanho": "gInfantil",
+    "tipo": "mangaNormal",
+    "qtd": 1,
+    "areaTotal": 0.76873,
+    "custo": 6.534205
+  },
+  {
+    "tamanho": "ggInfantil",
+    "tipo": "mangaNormal",
+    "qtd": 1,
+    "areaTotal": 0.8803,
+    "custo": 7.48255
+  },
+  {
+    "tamanho": "gMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 1,
+    "areaTotal": 1.20163,
+    "custo": 10.213855
+  },
+  {
+    "tamanho": "ggMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 1,
+    "areaTotal": 1.2514299999999998,
+    "custo": 10.637154999999998
+  },
+  {
+    "tamanho": "xgMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 1,
+    "areaTotal": 1.56,
+    "custo": 13.26
+  },
+  {
+    "tamanho": "pMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 3,
+    "areaTotal": 1.032225,
+    "custo": 26.321737499999998
+  },
+  {
+    "tamanho": "mMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 14,
+    "areaTotal": 1.146475,
+    "custo": 136.430525
+  },
+  {
+    "tamanho": "gMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 18,
+    "areaTotal": 1.20163,
+    "custo": 183.84939
+  },
+  {
+    "tamanho": "ggMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 7,
+    "areaTotal": 1.2514299999999998,
+    "custo": 74.46008499999999
+  },
+  {
+    "tamanho": "xgMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 3,
+    "areaTotal": 1.56,
+    "custo": 39.78
+  },
+  {
+    "tamanho": "xgMasculina",
+    "tipo": "mangaNormal",
+    "qtd": 1,
+    "areaTotal": 1.56,
+    "custo": 13.26
+  },
+  {
+    "tamanho": "ppInfantil",
+    "tipo": "mangaNormal",
+    "qtd": 1,
+    "areaTotal": 0.367085,
+    "custo": 3.1202225
+  }
+]
